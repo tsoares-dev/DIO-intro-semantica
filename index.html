@@ -5,20 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Perfil</title>
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
     <header>
         <img src="./img/perfil.jpg" alt="foto de perfil do Thiago Soares" height="200px">
-        <h1>Thiago Soares</h1>
+        <h1 id="title">Thiago Soares</h1>
     </header>
     <section>
         <header>
-            <h2>Posts</h2>
+            <h2 class="subtitle">Posts</h2>
         </header>
-            <article>
+            <article class="post">
                 <header>
-                    <h3>Post #1</h3>
-                    <img src="./img/vscode.jpg" alt="editor de texto vscode contendo um código CSS" height="300px">
+                    <h3 class="post-title">Post #1</h3>
+                    <img src="./img/vscode.jpg" alt="editor de texto vscode contendo um código CSS" width="600px">
                 </header>
                 <!--abrir em outra aba: target _blank // Link e-mail: <a href="mailto:tsoares.dev@gmail.com"--> 
                 <p>Lorem, ipsum dolor sit amet <a href="http://google.com" target="_blank">consectetur</a> adipisicing elit. Magnam totam <a href="mailto:tsoares.dev@gmail.com" target="_blank">quidem </a>quam voluptas vitae reiciendis voluptate illo sapiente, ipsum dicta laudantium animi aliquid sit rerum quaerat officia ab sequi explicabo.</p>
@@ -30,7 +31,9 @@
             li item da lista
          -->
             <ul>
-                <li></li>
+                <li><a href="mailto: tsoares.dev@gmail.com" target="_blank">tsoares.dev@gmail.com</a></li>
+                <li><a href="https://www.linkedin.com/in/thiago-ssoares/"target="_blank">Linkedin</a></li>
+                <li><a href="https://github.com/tsoares-dev" target="_blank">Github</a></li>
             </ul>
         </footer>
 </body>
@@ -39,5 +42,22 @@
 <!--
     <a> ancora =  href: podendo ser link, email, etc.
     target= onde vai abrir, ex blank (nova janela)
+
+    Seletores: a, p, h1, h3 {
+        color: blue;
+        font-size: 14px; (declarações)
+    }
     
- -->
+     <header id="header" class="header"></header> apenas umas usado 
+ #header {
+
+ <header class="header"></header> sem restrições
+ .header {
+
+    BOX MODEL
+    Margin: espaçamento entre elemento;
+    border: circudam padding e conteúdo, podendo mudar aparencia como largura e cor;
+    padding: espaçamento entre a borda e o conteúdo;
+    content: é o que o seu bloco representa, ex: texto, imagemm, video;
+    <
+ --> 
